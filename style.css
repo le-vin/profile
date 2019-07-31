@@ -1,0 +1,123 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .heading {
+    font-size: 50px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .heading {
+    font-size: 40px;
+  }
+}
+
+body {
+font-family: Avenir;
+font-weight: bolder;
+background: #FEFFFE;
+color: #4C6085;
+margin: 0px;
+}
+.heading {
+  font-family: Avenir;
+  font-weight: bolder;
+  font-size: 6vw;
+  color: #F1FFFA;
+  padding: 10px 40px 0px 40px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.banner {
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.3) 30%, rgba(46,46,46,0.5) 80%), url("images/Banner.jpg");
+  background-size: cover;
+}
+
+.avatar {
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.btn {
+  font-size: 30px;
+  color: #F1FFFA;
+  background: #3AAFB9;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.3) 30%, rgba(46,46,46,0.5) 80%);
+}
+
+.banner p {
+  color: #F1FFFA;
+  font-size: 2vw;
+  padding: 10px 40px 40px 40px;
+  margin: 30px;
+}
+
+.box {
+  background: white;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid;
+  border-color: #3AAFB9;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 40px;
+  margin: 40px;
+}
+
+.box h2, p{
+  margin: 0px;
+}
+
+.box h2 {
+  padding-bottom: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+a {
+  color: #3AAFB9;
+}
+
+a :hover{
+  color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
